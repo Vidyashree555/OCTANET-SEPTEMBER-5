@@ -1,0 +1,148 @@
+.head {
+    text-align: center;
+    padding: 70px; 
+    color: white;
+    background-image: url('wall.jpg'); 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.head h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.head h2{
+    font-size: 1.5rem;
+    color: white;
+}
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background-color: white;
+}
+a{
+    text-decoration: none; 
+    color: #ccc;
+    font-size: 20px;
+}
+.btn {
+    background-color: red; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px; 
+    border-radius: 10px; 
+    cursor: pointer;
+    font-size: 16px; 
+}
+.btn:hover {
+    background-color: darkred; 
+}
+header {
+    background-color: #333;
+    color: #fff; 
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px; 
+}
+
+nav a:hover {
+    color: #ff6600;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.contact {
+    background-color: black;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+footer {
+    background-color: #333;
+    color: #fff; 
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.connect{
+    cursor: pointer;
+}
+
+.about-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.about-text {
+    flex: 2;
+    padding: 20px;
+    text-align: left;
+}
+
+.about-text h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.about-text p {
+    font-size: 18px;
+    color: #555;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:  brown;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.cta-button:hover {
+    background-color: darkolivegreen;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+
+.about-image img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border: none;
+}
+
